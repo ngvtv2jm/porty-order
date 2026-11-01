@@ -1,0 +1,4 @@
+[functions.marketplace]
+# Requests are verified in the function using auth.getUser semantics via /auth/v1/user.
+# The catalogue is intentionally public; all account writes require a verified user.
+verify_jwt = false
